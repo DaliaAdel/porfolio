@@ -1,0 +1,41 @@
+#main-header img {
+  width: 100%;
+  height: 100%; }
+  .port-item
+  {
+    width: 25%;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.5s;
+  }
+  h1
+  {
+    font-size: 55px;
+    font-weight: 200;
+  }
+  .port-item:hover
+  {
+      opacity: 0.8;
+      /* transform: translateY(-.25em); */
+ 
+  }
+  .bg-dark
+  {
+    background-color: black;
+    color: white;
+  }
+@media(min-width:1199px)
+{
+  .port-item
+  {
+    padding: 2em !important;
+  }
+}
+@media only screen and (max-width:900px) 
+{
+  h1
+  {
+    font-size: 30px;
+    font-weight: 0;
+  }
+}
